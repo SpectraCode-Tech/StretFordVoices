@@ -1,4 +1,5 @@
-        body {
+@media only screen and (max-width: 600px){
+      body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -28,6 +29,7 @@
 
         main {
             padding: 20px;
+            align-items: center;
         }
 
         footer {
@@ -133,7 +135,7 @@ a{
     color: #fff;
     text-align: center;
     padding: 30px;
-    margin-left: 200px;
+    margin-left: 50px;
     margin-bottom: 50px;
 }
  
@@ -184,12 +186,13 @@ a{
 .count {
     font-weight: bold;
 }
+
 #Match-Preview{
     padding: 50px 20px;
     background-color: #fff;
 }
 #Preview-Grid{
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 17px;
 }
 .Preview-Tab{
@@ -198,3 +201,9 @@ a{
     padding: 15px;
     border-radius: 5px
 }
+@media only screen and (max-width:400px){
+iframe{
+width: 90%;
+height: 90%;
+}
+}}

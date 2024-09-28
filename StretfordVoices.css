@@ -201,6 +201,10 @@ a{
     padding: 15px;
     border-radius: 5px
 }
+iframe{
+    width: 600px;
+    height: 400px;
+}
 @media only screen and (max-width:400px){
 iframe{
 width: 90%;

@@ -217,5 +217,40 @@ height: 90%;
    width:90%;
    height:90%;
 }
+      .poll-question {
+   width:90%;
+   height:90%;
+}
+ 
+.poll-form label {
+   width:90%;
+   height:90%;
+}
+ 
+.vote-button {
+width:90%;
+   height:90%;
+}
+ 
+.results {
+ width:90%;
+   height:90%;
+}
+ 
+.results-title {
+      width:90%;
+   height:90%;
+}
+ 
+.results-count {
+   width:90%;
+   height:90%;
+}
+ 
+.count {
+   width:90%;
+   height:90%;
+}
+
 }
 
